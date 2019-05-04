@@ -1,0 +1,165 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	background-color:#464f54;
+	position:relative;
+	padding-top:150px;
+}
+
+.article-author{
+	text-transform: uppercase;
+	letter-spacing:0.219em;
+}
+
+.wrapper{
+	max-width:1060px;
+	margin:0 auto;
+	background-color:#fff;
+	padding:185px 115px 100px 30px 130px;
+}
+
+.header-info,
+.header-info a{
+	font-family:'proxima_nova', Arial, sans-serif;
+	color:#b4b4b4;
+	font-size:20px;
+	text-decoration:none;
+
+}
+
+ .article-title{
+ 	font-size:78px;
+ 	text-transform:uppercase;
+font-family:'FuturaPT', Arial, sans-serif;
+margin:.57em 0 0;
+
+ }
+
+ .article-desc{
+ 	font-family:Georgia, serif;
+ 	font-size:30px;
+ 	color:#8f8f8f;
+ 	line-height:2em;
+ }
+
+ .header{
+ 	margin-bottom:25px;
+ }
+
+ .article-content p{
+ 	font-size:26px;
+ 	line-height:1.5;
+
+ }
+
+ .article-content{
+ 	text-align:justify;
+ }
+
+ .form-editor{
+ 	position:absolute;
+ 	right:0;
+ 	max-width:878px;
+ 	width:80%;
+ }
+
+.form-title{
+	position:relative;
+	height:188px;
+	background-color:#181818;
+	padding:50px 0 50px 60px;
+}
+
+.form-input{
+	display:block;
+	background-color:transparent;
+	border:none;
+	border-bottom:4px solid #303030;
+	font-size:48px;
+	font-family: 'Playfair Display', serif;
+	color:#fefefe;
+	line-height:1.9583;
+	width:100%;
+}
+
+.form-label{
+	position:absolute;
+	left:60px;
+	top:50px;
+	color:#767676;
+	text-transform:uppercase;
+
+}
+
+.form-bottom{
+	height:79px;
+	background-color:#f9bf2d;
+	padding:0 43px;
+	display: flex;
+	align-items:center;
+	align-items: center;
+	width:calc(100%-65px);
+	margin-left:65px;
+}
+
+.from-text-decoration{
+	width:33px;
+	height:33px;
+	opacity:.5;
+	color:#fff;
+	padding:0px;
+	cursor:pointer;
+	font-size:22px;
+	background-color:transparent;
+	border:none;
+	font-family:sans-serif;
+}
+
+.form-text-decoration + .form-text-decoration{
+	margin-left:32px;
+}
+
+.form-text-decoration:hover,
+.form-text-decoration:focus{
+	opacity:1;
+}
+
+.form-text_color{
+	text-decoration:underline;
+	text-transform:uppercase;
+}
+
+.text-decoration_uppercase small{
+font-size:60%;
+}
+
+.text-decoration_bolt{
+	font-weight:bold;
+}
+
+.text-decoration_italic{
+	font-style:italic;
+
+	text-transform: uppercase;
+}
+
+.text-decoration_underline{
+	text-decoration:underline;
+}
+
+.form-text-decoration span{
+	display:block;
+	height:3px;
+	background-color:#FFF;
+	margin-bottom:3px;
+
+}
+.form-text-decoration span:last-child{
+	margin-bottom:0px;
+}
+
+.form-text-decoration span:nth-child(even){
+     width:20px;
+	}
